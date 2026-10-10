@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
 function parse(url: string) {
   const m = url.trim().match(/github\.com\/([^/\s]+)\/([^/\s#?]+)/i);
   if (!m) return null;
-  return { owner: m[1], repo: m[2].replace(/\.git$/, "") };
+  return { owner: m[1] ?? "", repo: (m[2] ?? "").replace(/\.git$/, "") };
 }
 
 function Index() {
