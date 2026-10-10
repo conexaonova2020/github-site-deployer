@@ -142,3 +142,4 @@
     color: var(--color-foreground);
   }
 }
+:root{--background:oklch(0.16 0.01 250);--foreground:oklch(0.96 0 0);--card:oklch(0.21 0.01 250);--primary:oklch(0.78 0.17 150);--primary-foreground:oklch(0.16 0.01 250);--muted:oklch(0.26 0.01 250);--muted-foreground:oklch(0.7 0.01 250);--border:oklch(0.3 0.01 250);--input:oklch(0.32 0.01 250);--ring:oklch(0.78 0.17 150);}
